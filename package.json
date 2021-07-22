@@ -1,0 +1,26 @@
+{
+  "name": "expoforum",
+  "version": "1.0.0",
+  "description": "Grid Practice, Standart Practice",
+  "main": "index.js",
+  "dependencies": {
+    "fraction.js": "^4.1.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "nanoid": "^3.1.23",
+    "source-map-js": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/bohdanvysh/expoforum.git"
+  },
+  "keywords": [
+    "Grid"
+  ],
+  "author": "Bohdan Vyshnevskyi",
+  "license": "ISC"
+}
