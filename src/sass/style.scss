@@ -1,0 +1,13 @@
+.container {
+    max-width: 69.688rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@import "libs/bootstrap-grid";
+@import "libs/fonts";
+
+@import "base/variables";
+
+@import "blocks/text";
+@import "blocks/titles";

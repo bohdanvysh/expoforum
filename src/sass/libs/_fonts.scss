@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Circe';
+	font-display: swap;
+	src: local('circe'),
+		url('../fonts/circe.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Plumb';
+	font-display: swap;
+	src: local('plumb-medium'),
+		url('../fonts/plumb-medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Plumb';
+	font-display: swap;
+	src: local('plumb-bold'),
+		url('../fonts/plumb-bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}

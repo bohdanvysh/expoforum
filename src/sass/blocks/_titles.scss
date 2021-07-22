@@ -1,0 +1,26 @@
+.title {
+    &_main {
+        font-family: 'Plumb';
+        font-weight: 700;
+        font-size: 4rem /*64px*/;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+    &_sub {
+        font-family: 'Plumb';
+        font-weight: 500;
+        color: #FFF;
+        &_size-n {
+            font-size: 1.875rem /*30px*/;
+        }
+        &_size-s {
+            font-size: 1.313rem; /*21px*/
+        }
+        &_color-red {
+            color: $red;
+        }
+        &_color-black {
+            color: $black;
+        }
+    }
+}

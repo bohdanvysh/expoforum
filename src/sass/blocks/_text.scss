@@ -1,0 +1,17 @@
+.text {
+    font-family: 'Circe';
+    font-weight: 400;
+    color: #fff;
+    &_size-n {
+        font-size: 1rem /*16px*/;
+        &_color-red {
+            color: $red;
+        }
+    }
+    &_size-s {
+        font-size: 0.875rem /*14px*/;
+    }
+    &_size-l {
+        font-size: 1.5rem /*24px*/;
+    }
+}
