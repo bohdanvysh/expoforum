@@ -1,0 +1,89 @@
+.intro {
+    background-image: url(../../img/bg_main.jpg);
+    height: 50rem;
+    &_header {
+        padding: 2.063rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_nav {
+            display: flex;
+            justify-content: space-evenly;
+            width: 36.625rem;
+            &_item {
+                text-decoration: none;
+                transition: 0.5s all;
+                &:hover {
+                    color: #D0D0D0;
+                }
+            }
+        }
+        &_other {
+            display: flex;
+            justify-content: space-between;
+            width: 10.75rem;
+            &_lang-switch {
+                &_img {
+                    transform: translateY(13%);
+                }
+                &_choice {
+                    margin-left: 0.5rem;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    &_divider {
+        height: 1px;
+        background: #fff;
+    }
+    &_main {
+        width: 26.25rem;
+        &_info {
+            transform: translate(30%,57%);
+            &_title {
+                margin-bottom: 2.188rem;
+            }
+            &_complex {
+                height: 1.375rem;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 0.625rem;
+            }
+        }
+        &_nav {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1.875rem;
+            transform: translate(153%, 6%);
+            &_item {
+                width: 14.688rem;
+                line-height: 1.688rem;
+                padding-top: 1.875rem;
+                padding-bottom: 1.875rem;
+                padding-left: 2.5rem;
+                &_1 {
+                    background: $blue;
+                }
+                &_2 {
+                    background: $green;
+                }
+                &_3 {
+                    background: $yellow;
+                }
+                &_4 {
+                    background: $red;
+                }
+                &_more-details {
+                    margin-top: 0.938rem;
+                    height: 1.375rem;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 0.625rem;
+                }
+            }
+        }
+    }
+}
