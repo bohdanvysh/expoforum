@@ -1,0 +1,26 @@
+.menu {
+    max-height: 26.625rem; /*426px*/
+    background: $blue;
+    padding: 4.688rem /*75px*/ 25rem /*400px*/;
+    &_content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 6.5rem; /*120px*/
+        &_item {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                margin-bottom: 1.875rem;
+            }
+            &_link {
+                margin-bottom: 0.938rem;
+                text-decoration: none;
+                transition: 0.7s all;
+                &:hover {
+                    text-decoration: underline;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
